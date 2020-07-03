@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+.navbar-brand, h1, h2, h3{
+    font-family:  cursive;
+}
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -191,7 +197,7 @@ img {
 
 .footer-contact p a:hover,
 .footer-contact p a:focus {
-    border-bottom: 1px dashed #856dc0;
+    border-bottom: 1px dashed black;
 }
 
 .footer-links a {
@@ -217,11 +223,16 @@ img {
 
 .footer-social a:hover,
 .footer-social a:focus {
-    color: #856dc0;
+    color: black;
     border: 0;
 }
 
 .footer-social i {
     font-size: 24px;
     vertical-align: middle;
+}
+
+.my-auto{
+    margin-top: auto;
+margin-bottom: auto;
 }
